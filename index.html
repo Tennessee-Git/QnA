@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TestowanieQnA</title>
+</head>
+<body>
+    <div class="form-wrapper">
+        <h1>TESTOWANIE QnA Maker <button class="AddBtn" id="clear">Wyczyść</button></h1>
+        <div class="form-inputs">
+            <label for="AskQ">Zadawanie pytań</label>
+            <input type="text" placeholder="Tu zadajemy pytania" id="AskQ">
+            <button class="AddBtn" id="AskBtn">Pytanie</button>
+        </div>
+        <br>
+        <br>
+        <div class="form-inputs">
+            <label for="AddQ">Dodawanie pytań</label>
+            <input type="text" placeholder="Tu dodajemy pytania" id="AddQ">
+            <input type="text" placeholder="Tu dodajemy odpowiedź" id="AddQ_A">
+            <button class="AddBtn" id="AddBtn">Dodawanie</button>
+        </div>
+        <p class="output" id="output">
+            RAW OUTPUT
+        </p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
